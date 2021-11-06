@@ -14,7 +14,12 @@ namespace QRCodeTracking
     public class QRCodeDetector: QRCodeListener
     {     
         public string ExpectedQRCodeText;
+        public string ExpectedQRCodeText2;
+
         public GameObject qrCodePrefab;
+
+        public GameObject Chart1;
+        public GameObject Chart2;
         public UnityEvent onQRCode;
         private Microsoft.MixedReality.QR.QRCode the_qrcode;
         private Pose QRPose;
@@ -42,7 +47,19 @@ namespace QRCodeTracking
                 
                 the_qrcode = qrCode;
                 onQRCode.Invoke();
+                Chart1.SetActive(true);
             }
+
+            if (ExpectedQRCodeText2 == qrCode.Data)
+            {               
+                
+                
+                the_qrcode = qrCode;
+                onQRCode.Invoke();
+                Chart2.SetActive(true);
+            }
+
+
         }
 
         private bool GetPoseFromSpatialNode(System.Guid nodeId, out Pose pose)

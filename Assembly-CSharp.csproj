@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3302a3ea-0c5c-c65e-9161-12bf247b26fb}</ProjectGuid>
+    <ProjectGuid>{12eccac3-1148-9dd8-4585-21efb009dc72}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,8 +46,54 @@
      <Compile Include="Assets\QRCodeSample\QrCodeHandler\QRTracking\QRCode.cs" />
      <Compile Include="Assets\QRCodeSample\QrCodeHandler\QRTracking\Singleton.cs" />
      <Compile Include="Assets\QRCodeSample\QrCodeHandler\QRTracking\SpatialGraphCoordinateSystem.cs" />
+     <Compile Include="Assets\QRCodeSample\Script\FreezePos.cs" />
+     <Compile Include="Assets\QRCodeSample\Script\SetScale.cs" />
      <Compile Include="Assets\Script\CloseDevConsoleScript.cs" />
      <Compile Include="Assets\Script\HIdeGameObject.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Sprites\3D Interactive Bar Chart\1.Scene\Script\BarGraphExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Sprites\3D Interactive Bar Chart\1.Scene\Script\BarGraphExample2.cs" />
+     <Compile Include="Assets\TextMesh Pro\Sprites\3D Interactive Bar Chart\2.Scripts\BarGraph\BarGorup.cs" />
+     <Compile Include="Assets\TextMesh Pro\Sprites\3D Interactive Bar Chart\2.Scripts\BarGraph\BarGraphGenerator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Sprites\3D Interactive Bar Chart\2.Scripts\BarGraph\BarGraphManager.cs" />
+     <Compile Include="Assets\TextMesh Pro\Sprites\3D Interactive Bar Chart\2.Scripts\BarGraph\BarMouseClick.cs" />
+     <Compile Include="Assets\TextMesh Pro\Sprites\3D Interactive Bar Chart\2.Scripts\BarGraph\BarProperty.cs" />
+     <Compile Include="Assets\TextMesh Pro\Sprites\3D Interactive Bar Chart\2.Scripts\CommanForGraph\GraphBox.cs" />
+     <Compile Include="Assets\TextMesh Pro\Sprites\3D Interactive Bar Chart\2.Scripts\CommanForGraph\GraphPoint.cs" />
+     <Compile Include="Assets\TextMesh Pro\Sprites\3D Interactive Bar Chart\2.Scripts\Utilities\MathExtension.cs" />
+     <Compile Include="Assets\TextMesh Pro\Sprites\3D Interactive Bar Chart\QuickOutline\Scripts\Outline.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\MRTK\StandardAssets\Shaders\Text3DShader.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -55,9 +101,12 @@
      <None Include="Assets\MRTK\StandardAssets\Shaders\InstancedColored.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\MRTK\StandardAssets\Shaders\ChannelPacker.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\Packages\Microsoft.MixedReality.QR.0.5.2092\LICENSE.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\3D Interactive Bar Chart\QuickOutline\Resources\Shaders\OutlineMask.shader" />
      <None Include="Assets\MRTK\StandardAssets\Shaders\InvisibleShader.shader" />
      <None Include="Assets\MixedRealityToolkit.Generated\link.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
@@ -70,6 +119,7 @@
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\MRTK\StandardAssets\Textures\Oculus lineart attribution.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Sprites\3D Interactive Bar Chart\QuickOutline\Readme.txt" />
      <None Include="Assets\MRTK\StandardAssets\Fonts\LICENSE.txt" />
      <None Include="Assets\MRTK\Providers\License.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
@@ -83,12 +133,14 @@
      <None Include="Assets\MRTK\StandardAssets\Version.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\3D Interactive Bar Chart\QuickOutline\Resources\Shaders\OutlineFill.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\MRTK\Services\License.txt" />
      <None Include="Assets\MRTK\StandardAssets\Shaders\DepthBufferPostProcess.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\MRTK\StandardAssets\Shaders\MixedRealityShaderUtils.cginc" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -267,7 +319,7 @@
         <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.QR.DotNet">
-        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode/Assets/Packages/Microsoft.MixedReality.QR.0.5.2092/lib/netstandard2.0/Microsoft.MixedReality.QR.DotNet.dll</HintPath>
+        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode3/Assets/Packages/Microsoft.MixedReality.QR.0.5.2092/lib/netstandard2.0/Microsoft.MixedReality.QR.DotNet.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>D:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -624,208 +676,208 @@
         <HintPath>D:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode3/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode3/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode3/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode3/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode3/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>E:/UNY/Magang/Unity/Hololens-QRcode3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.csproj">
-      <Project>{f72928ca-facf-24c6-bc05-3fadcabc886b}</Project>
+      <Project>{fc7557ce-f63d-b1bf-9c9b-dc32800c826b}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.SceneSystem.csproj">
-      <Project>{cb27b859-5da3-a6a5-24f8-54a908de023a}</Project>
+      <Project>{108b684d-2c53-ba0e-1dce-08573fbfaaea}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.SceneSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.csproj">
-      <Project>{2903b1aa-f8a4-ffcf-af67-82f7ee2f877e}</Project>
+      <Project>{b9d785fa-e40a-1bc7-bc0a-9b5edc5ad79f}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.csproj">
-      <Project>{297cafdc-a24e-69ce-48b9-c7b0cdd83755}</Project>
+      <Project>{dc0a2360-2b6e-3fee-ed93-ce16ac72a507}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.csproj">
-      <Project>{4ed7d16f-2c45-1036-c84e-392e3063a63d}</Project>
+      <Project>{b735d74c-56e6-4e4d-f4dc-97aacaaf78ce}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Async</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.csproj">
-      <Project>{15393141-9dc9-d6e0-776d-5fbdf0a6c6c0}</Project>
+      <Project>{8bfb5f91-b999-63b5-9cce-4aa7325cabab}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.csproj">
-      <Project>{ff3e1d42-f90a-de2b-e423-322c72062353}</Project>
+      <Project>{a8035028-e7f8-6faf-98f1-cf14c6fa3c10}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Gltf</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.csproj">
-      <Project>{8cd48a0a-3f65-c82b-0228-d7aaea4bdfe1}</Project>
+      <Project>{87eae296-0f0e-03c5-9d6b-57519d6a38ac}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.csproj">
-      <Project>{140d013b-cc17-96e4-60c0-68551037995f}</Project>
+      <Project>{b6a99ee7-2e5a-a873-81b5-55fad09f86b6}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.csproj">
-      <Project>{36f785ed-cde2-f2fa-5ba0-ccb24067b1a2}</Project>
+      <Project>{92526f01-5626-1faa-9fa4-2e5fcd7a34c0}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.csproj">
-      <Project>{a5e0324d-15b1-f1fb-7a16-4cfab2c65c79}</Project>
+      <Project>{94a99a14-ab45-d20d-2d07-2ab41b352d42}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.QR.Editor.csproj">
-      <Project>{09047685-8f7c-0935-110d-eb94161fbe17}</Project>
+      <Project>{24d0dd84-2003-c0f8-9c71-2e3ae49f21f6}</Project>
       <Name>Microsoft.MixedReality.QR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.csproj">
-      <Project>{a80a5724-3f0b-a28b-cd00-40e2e33e095c}</Project>
+      <Project>{a73f318c-0115-7944-00fa-94fdc499fefc}</Project>
       <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.StandardAssets.Editor.csproj">
-      <Project>{c05e007f-76f0-a843-6936-996ed02a8e65}</Project>
+      <Project>{b71e73d7-39fc-2c3b-04e5-8c8c894a818e}</Project>
       <Name>Microsoft.MixedReality.Toolkit.StandardAssets.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.csproj">
-      <Project>{1d404936-bf0d-e902-92a3-65ef600fb1a0}</Project>
+      <Project>{e94121d6-c108-33bd-b17b-a3c68d163f56}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj">
-      <Project>{20e762f5-97fb-ba57-38b0-0541ba68f92a}</Project>
+      <Project>{307fe94d-0875-38f5-5929-275ec1226658}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.ClassExtensions</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{a3e8b61b-3494-33c6-0a71-6892ec237724}</Project>
+      <Project>{b81cc4d5-4432-843c-3561-a3162bf974cb}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Editor.csproj">
-      <Project>{6eec4b94-1310-5c16-70e3-89a9c0eec8d8}</Project>
+      <Project>{4412ae22-b41a-fb24-e621-ac400cf7bf11}</Project>
       <Name>Microsoft.MixedReality.Toolkit.SDK.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.csproj">
-      <Project>{32592929-079a-b9b1-1ad3-4bee2d152e4b}</Project>
+      <Project>{1bfa4b0e-2e64-330b-1c86-586275173d99}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.csproj">
-      <Project>{922df09a-dfe9-0774-def4-b3006fe88448}</Project>
+      <Project>{7131c38b-301d-01f4-fcbb-ed580a8b1114}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.csproj">
-      <Project>{ab2f6e25-5c50-c046-0707-a9dda23e9789}</Project>
+      <Project>{b948d4a2-d4d5-cf2b-fdfb-3817cb50a9e0}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem.csproj">
-      <Project>{21ceb2eb-145e-5d33-55fe-82be4a59bd5a}</Project>
+      <Project>{81159468-cab4-0fc8-94d3-eebdcfe530ed}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.CameraSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.csproj">
-      <Project>{c6744948-5207-7a2c-4c12-588c026de08e}</Project>
+      <Project>{6b1627ff-fdaf-2ce0-07a1-48d0925c33b8}</Project>
       <Name>Microsoft.MixedReality.Toolkit.SDK</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.OpenVR.csproj">
-      <Project>{5afc8d20-2ada-f905-7aef-841a2c585f10}</Project>
+      <Project>{754eb06a-24b4-af0d-befc-09251da0b741}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.OpenVR</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.TeleportSystem.csproj">
-      <Project>{1c8c1b97-f349-f714-f85d-70fc9e23c760}</Project>
+      <Project>{80497a60-0447-6252-e845-d53476958bd7}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.TeleportSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.csproj">
-      <Project>{43b12940-a090-5605-0db1-306adb33d20a}</Project>
+      <Project>{1bf61568-a1e8-87f5-a2ad-16a4f28e70f1}</Project>
       <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.csproj">
-      <Project>{7675c71b-ad6a-3103-8a05-76b24d8ede37}</Project>
+      <Project>{4b0d3035-09fb-9b44-8707-2840073ff3b3}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.csproj">
-      <Project>{47c348fa-69c9-120d-2918-b90bbcfe3f0d}</Project>
+      <Project>{65875247-462d-ba37-14d3-7b0f853300a4}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj">
-      <Project>{e4ba78e7-efe2-0ed3-bf5c-e1705a327d18}</Project>
+      <Project>{2ab0ef67-5813-20f9-cc1b-e774b111b2d9}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.csproj">
-      <Project>{39f6655e-aa9b-daea-e016-c50c4710cf25}</Project>
+      <Project>{17445826-bc34-8501-8216-bfd825d996ba}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.LeapMotion</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.Importers.csproj">
-      <Project>{0b353879-c4f4-9c66-1f5d-a8421b7cdf6a}</Project>
+      <Project>{477a2a68-a0b9-280d-388f-aca51a8e0aec}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Gltf.Importers</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.csproj">
-      <Project>{89895608-cb3d-da88-8f3b-b02bf2234c94}</Project>
+      <Project>{45d9e480-ae6b-d953-60ec-e5a30438a926}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.csproj">
-      <Project>{a9ee1eb3-0fe3-3721-3bba-9a9b64b8097a}</Project>
+      <Project>{fcc48e5a-9cce-ed7a-51b9-cea244a286fc}</Project>
       <Name>Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.csproj">
-      <Project>{8b7c59bf-5810-1501-9e45-3589902d6cc8}</Project>
+      <Project>{f63facd9-a759-0606-f4a4-ba1a4e801b6c}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.VCRTForwarders.140.csproj">
-      <Project>{d1e27b94-2c93-38da-c9d4-42baade90cd0}</Project>
+      <Project>{915dc13f-ecd0-9a71-2cdb-4b6cc9ee561a}</Project>
       <Name>Microsoft.VCRTForwarders.140</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputAnimation.csproj">
-      <Project>{320dd67a-7775-3d38-c313-cc5ffdb9d90b}</Project>
+      <Project>{978fac11-169f-a9db-9604-d17678878a3d}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputAnimation</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors.csproj">
-      <Project>{99260412-a1c4-df0e-9eb6-ecead4626e28}</Project>
+      <Project>{c5c676dd-d7a2-e8ce-df90-c2853245327b}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.Inspectors</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.UnityAR.csproj">
-      <Project>{fcbbbb3d-18b4-3b57-8f4e-17c18106516a}</Project>
+      <Project>{b8aa2122-1406-2506-ebdb-9a1ef83ad45c}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.UnityAR</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.csproj">
-      <Project>{7e0bd4d2-9097-8844-38f1-8bd802ccdb6e}</Project>
+      <Project>{5d798177-2f9e-92ed-a362-2608498b1ed3}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj">
-      <Project>{89e87ebc-50f6-a384-df12-49ef627bc812}</Project>
+      <Project>{4c531402-2870-4614-444b-5898994ac758}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.csproj">
-      <Project>{82e3f537-3fca-831f-7d00-d96bd2b7e93b}</Project>
+      <Project>{13c89446-db2e-0af9-46ff-cb9862684694}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.BoundarySystem.csproj">
-      <Project>{87bdc5ee-f862-fb2d-b523-90c8f98e092d}</Project>
+      <Project>{81a4a7cc-4890-980d-292f-3f97776cf635}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.BoundarySystem</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.csproj">
-      <Project>{638f946f-2ed6-a092-1037-3e94de5319ae}</Project>
+      <Project>{87bd61bf-f493-e7a2-d8c7-e77024e89d7d}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj">
-      <Project>{009c123e-429c-1f8d-242f-b183b1085ddf}</Project>
+      <Project>{c21c125f-8988-fff4-7e02-f591290c82fc}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation</Name>
     </ProjectReference>
   </ItemGroup>
